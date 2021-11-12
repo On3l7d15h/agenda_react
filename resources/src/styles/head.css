@@ -1,0 +1,42 @@
+.head
+{
+	width: 100%;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: -2px 2px 5px 0 var(--c-black);
+}
+
+.head span
+{
+	padding: 10px;
+	font-weight: bold;
+	color: var(--c-white);
+	background-color: var(--c-red);
+	font-size: 20px;
+	transition: .5s all ease;
+}
+
+.head span:hover
+{
+	transform: perspective(300px) rotateY(20deg);
+}
+
+.head h3
+{
+	padding: 10px;
+	font-weight: bold;
+	color: var(--c-white);
+	background-color: var(--c-gBlue);
+	font-size: 20px;
+	transition: .5s all ease;
+}
+
+.head h3:hover
+{
+	transform: perspective(300px) rotateY(-20deg);
+	cursor: pointer;
+}

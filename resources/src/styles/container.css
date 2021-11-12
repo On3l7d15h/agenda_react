@@ -1,0 +1,11 @@
+.container
+{
+	width: 50%;
+	height: 93vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}

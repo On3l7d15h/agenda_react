@@ -1,0 +1,13 @@
+.foot
+{
+	background: var(--c-gray);
+	color: var(--c-white);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	width: 100%;
+	height: 7vh;
+}
